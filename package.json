@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node --watch main.js"
+    "dev": "node --env-file=.env --watch main.js"
   },
   "repository": {
     "type": "git",
@@ -14,13 +14,14 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/rolindaz/test_project_01/issues"
   },
   "homepage": "https://github.com/rolindaz/test_project_01#readme",
   "dependencies": {
     "axios": "^1.10.0",
-    "chalk": "^5.4.1"
+    "chalk": "^5.4.1",
+    "dotenv": "^16.5.0"
   }
 }
